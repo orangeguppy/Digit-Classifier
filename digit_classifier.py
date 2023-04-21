@@ -106,4 +106,3 @@ for batch in testing_dataloader:
 print("NUMBER OF ENTRIES: ", num_entries)
 print("NUMBER OF CORRECT ENTRIES: ", num_correct)
 print("ACCURACY RATE: ", num_correct / num_entries)
-print(len(training_data))
