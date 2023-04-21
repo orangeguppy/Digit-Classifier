@@ -1,11 +1,9 @@
-from PIL import Image
 import torch
 from torch import nn, save, load
 from torch.optim import SGD
 from torch.utils.data import DataLoader
 from torchvision import datasets
 from torchvision.transforms import ToTensor
-import matplotlib.pyplot as plt
 
 # Define the Digit Classifier model
 class DigitClassifier(nn.Module):
